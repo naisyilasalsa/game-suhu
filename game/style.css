@@ -1,0 +1,62 @@
+.container { 
+    margin: 70px auto; 
+    width: 500px; 
+    background-color: hsla(34, 85%, 82%, 0.603); 
+    padding: 100px; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(17, 131, 45, 0.384); 
+} 
+
+h1 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+
+input[type="number"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+} 
+
+select { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+} 
+
+p { 
+    text-align: center; 
+    margin-top: 20px; 
+    font-weight: bold; 
+    font-size: 20px; 
+    font-style: oblique;
+} 
+body {
+    margin: 0;
+    width: 100%;
+    background-image: url(mtk1.png!bw700);
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: fixed;
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+}
+title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#fromUnit{
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    background-color: rgba(209, 255, 205, 0.425);
+}
+#toUnit{
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    background-color: rgba(209, 255, 205, 0.425);
+}
+::placeholder{
+    font-family: "Amatic SC", cursive;
+    font-weight: bold
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONVERSI SUHU</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <h1>KONVERSI SUHU</h1> 
+        <input type="number" id="inputValue" 
+            placeholder="Masukkan Nilai" 
+            oninput="convert()"> 
+  
+        <select id="fromUnit" onchange="convert()"> 
+            <option value="Celcius">Celcius (C)</option> 
+            <option value="Reamur">Reamur (R)</option> 
+            <option value="Kelvin">Kelvin (K)</option> 
+            <option value="Fahrenheit">Fahrenheit (F)</option> 
+        </select> 
+        <select id="toUnit" onchange="convert()"> 
+            <option value="Celcius">Celcius (C)</option> 
+            <option value="Reamur">Reamur (R)</option> 
+            <option value="Kelvin">Kelvin (K)</option> 
+            <option value="Fahrenheit">Fahrenheit (F)</option> 
+        </select> 
+        <p id="result"></p> 
+    </div> 
+</body>
+</html>
